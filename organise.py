@@ -76,6 +76,7 @@ dir_dict = {
     "XML": [".xml"],
     "EXE": [".exe"],
     "SHELL": [".sh"],
+    "C & c++":['.cpp','.c'],
 }
 for files in os.listdir():
     if "." in files:
